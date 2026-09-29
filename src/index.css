@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Railway Station LED board dot matrix effect */
+.railway-led-board {
+  background: radial-gradient(#1e1e1e 15%, #0d0d0d 85%);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.led-amber {
+  color: #ffb300;
+  text-shadow: 0 0 6px rgba(255, 179, 0, 0.7), 0 0 12px rgba(255, 153, 0, 0.4);
+}
+
+.led-green {
+  color: #4ade80;
+  text-shadow: 0 0 6px rgba(74, 222, 128, 0.7);
+}
+
+.led-red {
+  color: #f87171;
+  text-shadow: 0 0 6px rgba(248, 113, 113, 0.7);
+}
+
+/* Leaflet dark theme map tiles & smooth marker transitions */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #0b1120 !important;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: #0f172a !important;
+  color: #f1f5f9 !important;
+  border: 1px solid #334155;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+}
+
+.train-marker-icon {
+  transition: transform 0.4s ease-out;
+}
+

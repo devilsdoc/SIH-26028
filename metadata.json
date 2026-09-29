@@ -1,0 +1,8 @@
+{
+  "name": "RailDrishti AI - Dynamic Train ETA Forecast",
+  "description": "Smart India Hackathon (SIH) Real-Time ML-Driven Dynamic ETA Prediction & Congestion Management System for Indian Railways Coaching Trains.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
